@@ -1,0 +1,132 @@
+body, html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: url("https://source.unsplash.com/6bKpHAun4d8/1600x900");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Roboto"; }
+
+*, *::before, *::after {
+  box-sizing: border-box; }
+
+a {
+  color: white;
+  text-decoration: none; }
+  a:hover {
+    color: grey; }
+
+header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  color: white;
+  z-index: 100; }
+  header #branding {
+    float: left;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-left: 15px;
+    letter-spacing: 2px; }
+  header #email {
+    float: right;
+    background: #333333;
+    opacity: 0.8;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 15px;
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px; }
+
+#titleWrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  #titleWrap .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+    opacity: 0.9; }
+  #titleWrap .titleFlex {
+    color: white;
+    text-align: center;
+    position: absolute; }
+    #titleWrap .titleFlex h1 {
+      font-size: 78px;
+      font-weight: bold;
+      margin-top: 0; }
+    #titleWrap .titleFlex h4 {
+      font-size: 20px;
+      letter-spacing: 5px; }
+    #titleWrap .titleFlex #subscribeWrap {
+      margin: 0 auto;
+      display: block; }
+      #titleWrap .titleFlex #subscribeWrap input {
+        background: transparent;
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+        width: 400px;
+        padding: 10px;
+        color: white;
+        border: none;
+        border-bottom: 2px solid white;
+        outline: none;
+        position: relative; }
+        #titleWrap .titleFlex #subscribeWrap input::placeholder {
+          color: white;
+          text-align: center;
+          font-size: 18px;
+          font-weight: bold; }
+    #titleWrap .titleFlex button {
+      width: 400px;
+      padding: 7px;
+      background: #766c92;
+      border: none;
+      border-radius: 5px;
+      margin-top: 10px;
+      outline: none; }
+    #titleWrap .titleFlex .container {
+      padding-right: 200px;
+      padding-left: 200px;
+      margin-top: 40px;
+      text-align: center;
+      color: white; }
+      #titleWrap .titleFlex .container h1 {
+        font-size: 60px; }
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  z-index: 100; }
+  footer #bottomLeft {
+    float: left;
+    margin-left: 25px;
+    font-size: 21px;
+    letter-spacing: 2px; }
+  footer #social {
+    float: right;
+    margin-bottom: 15px;
+    margin-right: 25px; }
+    footer #social ul {
+      list-style: none; }
+      footer #social ul li {
+        display: inline;
+        font-size: 20px;
+        margin-left: 30px;
+        color: white; }
+
+/*# sourceMappingURL=styles.css.map */

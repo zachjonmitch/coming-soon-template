@@ -1,0 +1,67 @@
+doctype html
+html
+    head
+        meta(charset="utf-8")
+
+        title Coming Soon Template
+        meta(name="description" content="Single page countdown template")
+        meta(name="author" content="Zach Mitchell")
+
+        link(href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css", rel="stylesheet")
+        link(href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css", rel="stylesheet")
+        link(href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet")
+        link(rel="stylesheet" href="styles/css/styles.css")
+
+    body
+        header
+            div(class="container-fluid")
+                div(class="row")
+                    div(id="branding") BRANDING
+                    div(id="email")
+                        div(class="flexEmail")
+                            i(class="fa fa-envelope")
+
+        section(id="titleWrap")
+            div(class="overlay")
+            div(class="titleFlex")
+                h4 Be ready, we are launching soon.
+                h1 HELLO WORLD
+                div(id="subscribeWrap")
+                    input(class="subscribe" type="text" placeholder="Sign up for updates" name="email")
+                button(class="submit") Submit
+                div(class="container")
+                    div(class="row")
+                        div(class="col-md-3") 
+                            h1(id="days") 99
+                            h4 Days
+                        div(class="col-md-3") 
+                            h1(id="hours") 99
+                            h4 Hours
+                        div(class="col-md-3") 
+                            h1(id="minutes") 99
+                            h4 Minutes
+                        div(class="col-md-3") 
+                            h1(id="seconds") 99
+                            h4 Seconds
+
+        footer
+            div(class="container-fluid")
+                div(class="row")
+                    div(id="bottomLeft") info@website.com
+                    div(id="social") 
+                        ul
+                            li 
+                                a(href="https://www.facebook.com")
+                                    i(class="fa fa-facebook")
+                            li 
+                                a(href="https://www.twitter.com")
+                                    i(class="fa fa-twitter")
+                            li 
+                                a(href="https://www.instagram.com")
+                                    i(class="fa fa-instagram")
+                            li 
+                                a(href="https://www.plus.google.com")
+                                    i(class="fa fa-google-plus")
+
+        script(type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js")
+        script(src="js/scripts.js")
